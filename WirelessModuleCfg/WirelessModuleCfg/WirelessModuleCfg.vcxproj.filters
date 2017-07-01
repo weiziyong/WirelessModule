@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Protocal">
+      <UniqueIdentifier>{31e2043c-c26f-471c-abf1-3ea510d5f4b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{b6c10703-ba43-4819-a525-76172c592095}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WirelessModuleCfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WirelessModuleCfgDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LogSystem.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\AckCmdParser.h">
+      <Filter>Protocal</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\CfgBaudrateCmd.h">
+      <Filter>Protocal</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\CfgCommChannelCmd.h">
+      <Filter>Protocal</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\CfgInfo.h">
+      <Filter>Protocal</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\CfgProtocol.h">
+      <Filter>Protocal</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\CfgTransSpeedCmd.h">
+      <Filter>Protocal</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\Cmd.h">
+      <Filter>Protocal</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\CmdFactory.h">
+      <Filter>Protocal</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\CommIntf.h">
+      <Filter>Protocal</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\Communication.h">
+      <Filter>Protocal</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\ComPortExplorer.h">
+      <Filter>Protocal</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\Connection.h">
+      <Filter>Protocal</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\ProtocolConst.h">
+      <Filter>Protocal</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\SearchAckCmdDataParser.h">
+      <Filter>Protocal</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\SearchCmd.h">
+      <Filter>Protocal</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\WirelessModuleProtocol.h">
+      <Filter>Protocal</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\SendFirmwareCode.h">
+      <Filter>Protocal</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\ReadFirmwareCode.h">
+      <Filter>Protocal</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\UpdateFWEnd.h">
+      <Filter>Protocal</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\CfgMdlNetID.h">
+      <Filter>Protocal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WirelessModuleCfg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WirelessModuleCfgDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogSystem.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\AckCmdParser.cpp">
+      <Filter>Protocal</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\CfgBaudrateCmd.cpp">
+      <Filter>Protocal</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\CfgCommChannelCmd.cpp">
+      <Filter>Protocal</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\CfgInfo.cpp">
+      <Filter>Protocal</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\CfgProtocol.cpp">
+      <Filter>Protocal</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\CfgTransSpeedCmd.cpp">
+      <Filter>Protocal</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\Cmd.cpp">
+      <Filter>Protocal</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\CmdFactory.cpp">
+      <Filter>Protocal</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\CommIntf.cpp">
+      <Filter>Protocal</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\Communication.cpp">
+      <Filter>Protocal</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\ComPortExplorer.cpp">
+      <Filter>Protocal</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\Connection.cpp">
+      <Filter>Protocal</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\ProtocolConst.cpp">
+      <Filter>Protocal</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\SearchAckCmdDataParser.cpp">
+      <Filter>Protocal</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\SearchCmd.cpp">
+      <Filter>Protocal</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\WirelessModuleProtocol.cpp">
+      <Filter>Protocal</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\SendFirmwareCode.cpp">
+      <Filter>Protocal</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\ReadFirmwareCode.cpp">
+      <Filter>Protocal</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\UpdateFWEnd.cpp">
+      <Filter>Protocal</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\CfgMdlNetID.cpp">
+      <Filter>Protocal</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WirelessModuleCfg.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\WirelessModuleCfg.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\WirelessModuleCfg.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\logo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\logo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\logo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\logo-black.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\logo-blue.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\logo-icon-bg-big.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\logo-icon-bg-small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
