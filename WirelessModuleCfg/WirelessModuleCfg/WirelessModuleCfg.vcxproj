@@ -256,16 +256,11 @@
     <ResourceCompile Include="WirelessModuleCfg.rc" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\WirelessModuleCfg.rc2" />
-  </ItemGroup>
-  <ItemGroup>
     <Image Include="res\logo-black.ico" />
     <Image Include="res\logo-blue.ico" />
     <Image Include="res\logo-icon-bg-big.ico" />
     <Image Include="res\logo-icon-bg-small.ico" />
-    <Image Include="res\logo.bmp" />
     <Image Include="res\logo.ico" />
-    <Image Include="res\logo.png" />
     <Image Include="res\WirelessModuleCfg.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
